@@ -10,7 +10,7 @@ jobs:
   build_and_test:
     runs-on: ubuntu-latest
     if: ${{ github.triggering_actor != 'github-classroom[bot]' }}
-    timeout-minutes: 5
+    timeout-minutes: 8
 
     steps:
       - name: Checkout code
